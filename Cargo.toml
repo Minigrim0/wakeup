@@ -1,0 +1,13 @@
+[package]
+name = "wakeup"
+description = "A daemon that makes you move"
+version = "0.1.0"
+authors = ["Minigrim0 <grimauflorent@gmail.com>"]
+license = ""
+repository = ""
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.0", features = ["derive"] }
+libc = "0.2.153"
+log = "0.4.20"
